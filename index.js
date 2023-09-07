@@ -3,7 +3,7 @@ const moment = require('moment');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/info', (req, res) => {
+app.get('/', (req, res) => {
   const { slack_name, track } = req.query;
 
   if (!slack_name || !track) {
