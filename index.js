@@ -13,7 +13,7 @@ app.get('/info', (req, res) => {
   const current_day = moment().format('dddd');
   const utc_time = moment.utc().format();
   
-  const github_file_url = 'https://github.com/yourusername/yourrepository/blob/master/yourfile.js'; // Replace with your actual GitHub URLs
+  const github_file_url = 'https://github.com/yourusername/yourrepository/blob/master/yourfile.js';
   const github_repo_url = 'https://github.com/Techieman1/stage'
 
   
@@ -31,3 +31,9 @@ app.get('/info', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+
+
+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
+
+git remote set-url origin https://<token>@github.com/<username>/<repo>
